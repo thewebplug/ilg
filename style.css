@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    font-family: Pacifico !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ilg_hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    background: url('./img/ilg.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ilg_hero-inner {
+width: 100%;
+display: flex;
+justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.ilg_hero-title {
+    color: pink;
+    transition: 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ilg_hero-title:hover {
+color: #ffffff;
+}
+
+.ilg_flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+.ilg_img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.ilg_img:hover {
+margin-bottom: 10px;
+}
+
+.full {
+    transition: 0.8s !important;
+    width: 100% !important;
+    height: 100vh !important;
+    position: absolute !important;
+    border-radius: none !important;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+
+}
+
+.ilg_tiktok-prev {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 100px
+}
+
+.ilg_tiktok-prev-box {
+    width: 100% !important;
+}
+
+
+
+
+
+.owl-carousel {
+    margin: auto !important;
+    width: 100% !important;
+    margin-top: 60px !important;
+}
+
+.ilg_arrow-down-container {
+    
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: bounce 1s infinite;
+}
+
+
+
+.ilg_arrow-down {
+    width: 30px;
+    height: 30px;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .owl-carousel {
+        width: 100% !important;
+    }
+
+    .lg_tiktok-prev-box {
+        width: 400px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .ilg_tiktok-prev {
+        padding: 20px 0;
+    }
+    .ilg_tiktok-prev-box{
+        width: 100% !important;
+    }
+
+    .owl-carousel  {
+        width: 100% !important;
+    }
+}
+
+
+@keyframes bounce {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    50%  {top: 50px}
+    100% {top: 60px;}
+  }
