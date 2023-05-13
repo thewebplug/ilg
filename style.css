@@ -143,8 +143,8 @@ margin-bottom: 10px;
 
 
 @keyframes bounce {
-    0%   {top: 0px;}
-    25%  {top: 100px;}
-    50%  {top: 50px}
-    100% {top: 60px;}
+    0%   {top: 40px;}
+    25%  {top: 160px;}
+    50%  {top: 90px}
+    100% {top: 120px;}
   }
